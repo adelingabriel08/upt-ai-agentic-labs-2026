@@ -13,7 +13,7 @@ using Microsoft.Extensions.AI;
 //    Mistral       (gol = implicit)             mistral-small-latest
 //    OpenRouter    (gol = implicit)             openai/gpt-4.1-mini
 var provider = LlmProvider.AzureOpenAI;
-var endpoint = "https://<resursa>.openai.azure.com/";
+var endpoint = "https://<resource>.openai.azure.com/";
 var model = "gpt-4.1-mini";
 var key = "";
 
